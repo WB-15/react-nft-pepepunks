@@ -1,0 +1,432 @@
+body {
+    background: $bgcolor;
+    color: $textcolor;
+    overflow-x: hidden !important;
+    font-weight: bold;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $fontheading;
+}
+header {
+    color: $textcolor;
+    padding: 70px;
+}
+header .navbar-brand {
+    color: $textcolor;
+    font-family: $fontheading;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 34px;
+}
+header .nav-link {
+    color: $textcolor;
+    font-weight: 600;
+    padding-top: 10px;
+    font-size: 24px;
+    margin-right: 100px;
+}
+.accordion-body {
+    background: none;
+    color: $textcolor;
+    font-size: 20px;
+    border: 2px solid #a5b99d;
+    margin-top: -22px;
+    box-shadow: none;
+    margin-bottom: 20px;
+}
+.accordion-button {
+    background: none;
+    color: $textcolor;
+    font-weight: 600;
+    font-size: 20px;
+    border: 2px solid #a5b99d;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+.accordion-button:not(.collapsed) {
+    background: none;
+    color: $textcolor;
+    border: 2px solid #a5b99d;
+    box-shadow: none;
+    margin-bottom: 20px;
+}
+.accordion-item {
+    background: none;
+    border: 0;
+}
+
+footer {
+    margin-top: 100px;
+    background: #b1c2a9;
+    padding: 40px 80px;
+}
+footer strong {
+    font-family: $fontheading;
+    color: $bgcolor;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+footer .nav-link {
+    color: $bgcolor;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 10px;
+}
+body {
+    background: $bgcolor;
+    font-family: $fontbody;
+    font-size: 20px;
+}
+.accordion-header {
+    font-family: $fontbody;
+}
+.nav-link:hover {
+    color: #638554;
+}
+.css-sghohy-MuiButtonBase-root-MuiButton-root {
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 24px !important;
+    background: #77cba7 !important;
+    border-radius: 6px;
+    color: $textcolor !important;
+    border: 0;
+    padding: 10px 30px !important;
+    box-shadow: none !important;
+    font-family: $fontbody !important;
+    text-transform: capitalize !important;
+}
+p {
+    font-size: 30px;
+}
+.rmboximg p {
+    font-size: 24px;
+}
+h2 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 42px;
+    color: $textcolor;
+}
+.nav-link:focus,
+.nav-link:hover {
+    color: #638554;
+}
+.faq-layout {
+    max-width: 942px;
+    margin: 0 auto;
+}
+h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 92px;
+    line-height: 84px;
+    color: $textcolor;
+}
+.mintsection {
+    padding-left: 120px;
+    padding-right: 90px;
+    padding-bottom: 130px;
+}
+.mintsection p {
+    margin: 50px 0;
+}
+.fairsection .col-md-5 {
+    margin: 0 auto;
+    float: none;
+    text-align: center !important;
+}
+.faq {
+    // padding: 100px 0;
+}
+.fairsection p {
+    margin: 50px 0;
+}
+.faq-title {
+    margin-bottom: 100px;
+}
+.partners {
+    // padding: 100px 0;
+}
+.partners-body {
+    margin-top: 40px;
+}
+
+.accordion-button::after {
+    flex-shrink: 0;
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    margin-left: auto;
+    content: '';
+    background-repeat: no-repeat;
+    background-size: 90px;
+    transition: transform 0.2s ease-in-out;
+    right: 0;
+}
+.accordion-button:not(.collapsed)::after {
+    transform: rotate(-180deg);
+}
+.memeber img {
+    margin-top: -30px;
+}
+.memeber img {
+    z-index: 999999;
+    position: relative;
+}
+.memeber h4 {
+    font-size: 24px;
+}
+.ourteam .col-md-4 {
+    float: none;
+    margin: 50px auto;
+}
+.timep {
+    width: 350px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 46px !important;
+    margin: 30px 0 !important;
+    line-height: 43px;
+}
+
+.punkstext {
+    position: absolute;
+    left: -7%;
+    top: 2400px;
+    font-family: $fontheading;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 160px;
+    color: #222120;
+    mix-blend-mode: overlay;
+    transform: rotate(90deg);
+}
+.pepetext {
+    position: absolute;
+    right: -3%;
+    top: 1000px;
+    font-family: $fontheading;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 160px;
+    color: #222120;
+    mix-blend-mode: overlay;
+    transform: rotate(-90deg);
+}
+
+* :focus,
+* :active:focus,
+* .active:focus,
+* .focus,
+* :active.focus,
+* .active.focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.mint-wrapper {
+    width: 350px;
+    text-align: center;
+}
+
+.rmbox-row {
+    margin-top: 70px;
+}
+.rmbox-row .col-md-10 {
+    margin: 0 auto;
+    float: none;
+}
+.rmbox {
+    height: 450px;
+    border-left: 3px solid #a5b99d;
+    padding: 10px 20px;
+}
+.rmboximg {
+    margin: 20px 0;
+    width: 326px;
+    height: 221px;
+    background: #a5b99d;
+    border-radius: 10px;
+}
+.rmboximg img {
+    width: 221px;
+    height: 221px;
+    border-radius: 10px;
+}
+.rmboximg span {
+    font-family: $fontheading;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: $textcolor;
+    left: 100px;
+    position: relative;
+    mix-blend-mode: overlay;
+    margin-top: -30px;
+    transform: rotate(90deg);
+}
+section {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    position: relative;
+    z-index: 1;
+}
+button.styles-module_carousel-arrow__26sRw {
+    background-size: 90px;
+    background-color: transparent;
+    height: 90px;
+    width: 90px;
+    border: 0;
+    margin-top: 200px;
+}
+.imgcc {
+    position: relative;
+}
+.imgcc .img-fluid {
+    width: 100%;
+}
+.img3cc {
+    width: 40%;
+    filter: drop-shadow(-13px 40px 50px rgba(0, 0, 0, 0.25));
+    top: 40%;
+    left: 59.5%;
+    position: absolute;
+    transition: transform 250ms;
+}
+
+.img2cc {
+    width: 50%;
+    filter: drop-shadow(15px 40px 100px rgba(0, 0, 0, 0.25));
+    top: 40%;
+    left: 0;
+    position: absolute;
+    transform: rotate(0deg);
+    transition: transform 250ms;
+}
+
+.img1cc {
+    width: 40%;
+    filter: drop-shadow(-13px 40px 50px rgba(0, 0, 0, 0.25));
+    left: 30%;
+    top: -7%;
+    position: absolute;
+    transform: rotate(0deg);
+    transition: transform 250ms;
+}
+.img1cc:hover {
+    -webkit-animation: action 0.3s infinite alternate;
+    animation: action 0.3s infinite alternate;
+}
+.img2cc:hover {
+    -webkit-animation: action 0.3s infinite alternate;
+    animation: action 0.3s infinite alternate;
+}
+.img3cc:hover {
+    -webkit-animation: action 0.3s infinite alternate;
+    animation: action 0.3s infinite alternate;
+}
+.styles-module_carousel-base__3keqD [data-direction|='left'] {
+    display: none !important;
+}
+
+@-webkit-keyframes action {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+@keyframes action {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+.fairsection {
+    padding-top: 20px;
+}
+.progress-bar-striped {
+    background-image: none !important;
+}
+.buttonpar {
+    width: 250px;
+    text-align: center;
+    margin: 0;
+    margin-top: 20px !important;
+}
+.accordion-button:focus {
+    border-color: #a5b99d;
+}
+.ourteam h2 {
+    margin-bottom: 40px;
+}
+.buttonpar .css-sghohy-MuiButtonBase-root-MuiButton-root {
+    width: 250px !important;
+}
+.progress2 {
+    margin-top: 10px;
+}
+.imgcc {
+    margin-top: -30px;
+}
+.buttonpar .css-sghohy-MuiButtonBase-root-MuiButton-root {
+    width: 350px !important;
+}
+p {
+    font-size: 30px;
+}
+
+.MuiDialog-container {
+    .MuiDialog-paper {
+         width: 600px !important;
+        .MuiDialogTitle-root {
+            .MuiTypography-h6 {
+                color: $textcolor;
+                font-size: 28px;
+                font-family: 'SF Pro Text Regular';
+                //   margin-top: 16pt;
+                .MuiIconButton-root {
+                    //  font-size: 24pt;
+                    //   margin-top: -4pt;
+                }
+            }
+        }
+        .MuiDialogContent-root {
+            .MuiButton-root {
+                .MuiButton-label {
+                    //  font-size: 20pt;
+                }
+            }
+            .MuiList-root {
+                background-color: $bgcolor;
+            }
+            .MuiListItem-root {
+                box-shadow: inset 0 1px 0 0 rgb(0 0 0 / 10%);
+            }
+        }
+    }
+}
